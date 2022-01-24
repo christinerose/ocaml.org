@@ -19,4 +19,5 @@ pin-depends: [
   ["dream.dev" "git+https://github.com/aantron/dream#master"]
   ["dream-pure.dev" "git+https://github.com/aantron/dream#master"]
   ["dream-httpaf.dev" "git+https://github.com/aantron/dream#master"]
+  ["code-mirror.dev" "git+https://github.com/patricoferris/jsoo-code-mirror#1222cc0aad50593e3ac836d84a690ed2d00b2ce2"]
 ]
