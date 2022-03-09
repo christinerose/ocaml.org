@@ -1,4 +1,4 @@
-let render (users : Ood.Industrial_user.t list) =
+let render ~(users : Ood.Industrial_user.t list) ~success_stories:_ =
 Layout.render
 ~use_swiper:true
 ~title:"Industrial Users of OCaml"
@@ -32,7 +32,7 @@ the community and learn more about how they use OCaml." @@
         <h2 class="font-bold mb-6">Interested in learning more?</h2>
         <div class="text-lg mb-8 lg:px-28">Go to our success stories for a more in-depth understanding of how our users use OCaml.</div>
         <div class="space-x-0 md:space-x-5 space-y-5 md:space-y-0">
-          <a href="<%s Url.success_stories %>"><button class="btn btn-lg btn-tertiary">Success Stories</button></a>
+          <a href="<%s Url.industrial_users %>"><button class="btn btn-lg btn-tertiary">Success Stories</button></a>
         </div>
       </div>
     </div>
