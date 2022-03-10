@@ -244,6 +244,20 @@ This approach greatly increases the capacity to quickly develop new features to 
 <h3>Results</h3>
 <p>This approach greatly increases the capacity to quickly develop new features to the point that a single developer can over the course of a day set the foundations of a new feature, together with a corresponding user interface, both on the Desktop and the Web, while never taking their eyes off the key business logic. Not a mean feat!</p>
 |js}
+  };
+ 
+  { title = {js|Zeo Agency|js}
+  ; slug = {js|zeo-agency|js}
+  ; logo = {js|/users/zeo.svg|js}
+  ; background = {js|/success-stories/lexifi-bg.jpg|js}
+  ; theme = {js|orange|js}
+  ; synopsis = {js|Integrated end-user software solution to efficiently manage all types of structured investment products and provide superior client services.|js}
+  ; url = {js|https://www.lexifi.com/|js}
+  ; body_md = {js|
+Zeo is a digital marketing company focused on helping companies to do better in SEO. Due to the nature of our business, we manage billions of lines in our database & create insights by using this data. To utilize our needs effectively, we use OCaml in our data crawling & processing part.
+|js}
+  ; body_html = {js|<p>Zeo is a digital marketing company focused on helping companies to do better in SEO. Due to the nature of our business, we manage billions of lines in our database &amp; create insights by using this data. To utilize our needs effectively, we use OCaml in our data crawling &amp; processing part.</p>
+|js}
   }]
 
 let all_fr = 
